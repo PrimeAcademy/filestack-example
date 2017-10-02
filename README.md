@@ -13,7 +13,7 @@ var fileStack = filestack.init('api key goes here');
 
 ### In Controller
 
-This specific example also does resizing to `200` by `200`. You may remove that part of the URL in order to simplify your request
+This specific example also does resizing to `200` by `200`. You may remove that part of the URL in order to simplify your request. Here, `ClientService` is the name of the service that is saving the value returned from FileStack, but you may save the information wherever you like.
 
 ```JavaScript
 self.pickAvatar = (event) => {    
